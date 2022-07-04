@@ -1,6 +1,13 @@
-#include <iostream>
+#include<iostream>
 using namespace std;
-
-int main() {
-  cout << "Hello World!" << endl;
+int main()
+{
+  int a,b;
+  cout<< "Enter the value of a" << endl;
+  cin>>a;
+   cout<< "Enter the value of b" << endl;
+  cin>>b;
+  if(a>b){
+    cout<< "A is greater then B" <endl;
+  }
 }
